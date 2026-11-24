@@ -19,7 +19,7 @@ public class BillingService {
     // Stamp Coupling усунено: приймаються лише примітивні параметри
     public static double calculateDeliveryCost(String city, double weightKg) {
         double baseRate = "Ivano-Frankivsk".equals(city) ? 50.0 : 110.0;
-        return baseRate + (weightKg * 12.0);
+        return baseRate + (weightKg * 15.0);
     }
 
     // Control Coupling усунено: окремий метод для стандартного розрахунку.
